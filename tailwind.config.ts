@@ -8,6 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "lotr-gold": "#c9b037",
+        "lotr-silver": "#B4B4B4",
+        "lotr-bronze": "#AD8A56",
+        parchment: "#F4E8D1",
+        "forest-green": "#228B22",
+        mirkwood: "#1A3409",
+      },
+      fontFamily: {
+        roboto: ["var(--font-roboto)", "sans-serif"],
+        ringbearer: ["var(--font-ringbearer)", "serif"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
