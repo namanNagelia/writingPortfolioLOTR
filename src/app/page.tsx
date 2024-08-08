@@ -8,6 +8,7 @@ import silmarillion from "@/../public/books/silmarillion.jpg";
 import fellowship from "@/../public/books/fellowship.jpg";
 import twoTowers from "@/../public/books/twoTower.jpg";
 import returnKing from "@/../public/books/rotk.jpg";
+import "./page.css";
 
 const HomePage = () => {
   return (
@@ -33,9 +34,12 @@ const HomePage = () => {
             Welcome, Fellow Traveler
           </h2>
           <p className="font-roboto text-lg">
-            Embark on an epic journey through the ages of Middle-earth. Write
-            some more to introduce the theme, mention about tolkien, the great
-            war, etc
+            Embark on an epic journey through the ages of Middle-earth. We start
+            at the beginning of time with the Silmarillion, which takes us up to
+            the 2nd age. We will then dwelve into the third age in detail up to
+            the end of it, and along the way, see the various factors of greed,
+            power and corruption on the characters, as well as relate it to the
+            author, Tolkien and his experience.
           </p>
         </section>
 
@@ -71,32 +75,71 @@ const Books = () => {
       title: "The Silmarillion",
       image: silmarillion,
       description:
-        "The dawn of creation: Explore the mythical beginnings of Middle-earth, from the Music of the Ainur to the First Age of the Elves. Witness the shaping of the world and the origins of the greatest conflicts that would echo through the ages.",
-      fullSummary:
-        "... [Your full 2+ pages of content for The Silmarillion] ...",
+        "The dawn of creation: Explore the mythical beginnings of Middle-earth, from the Music of the Ainur to the First Age of the Elves. The shaping and origins of Middle Earth. Press Read More for a book review.",
+      fullSummary: `
+    <p><strong>Introduction:</strong></p>
+    <p>    J.R.R. Tolkien's The Silmarillion is like a bible for the legendarium he created. This collection of five books dives deep into the mythology of not only Middle Earth but the world, starting from the one creator Eru, and how he created the world where the events of the Hobbit and Lord of the Rings take place. It goes through each age of the world and offers a unique and immersive experience that will expand anyone's understanding of Middle Earth.</p>
+    
+    <p><strong>Relevance</strong></p>
+    <p>    Sometimes, you may be reading books, or watching movies and shows, and you may want to learn more about the world. Middle Earth is a diverse world of different creatures, factions, races and creatures, along with their relations. The Silmarillion provides a backdrop for all of this, starting from the beginning of time and providing the context and historical events of the word up to the events following the Lord of the Rings. This is able to deeply immerse readers into the world, and help them gain a deeper understanding of Tolkien's legendarium and his body of work as a whole.</p>
+    
+    <p><strong>The 5 Sections</strong></p>
+    <p>The Silmarillion is divided into 5 parts, each offering a different aspect of the world.</p>
+    <p>1. Ainulindale is the creation myth of the world, similar to the old testament. Eru creates the universe through music sung by the Ainur</p>
+    <p>2. Valaquenta introduces the Valar and Maiar, who descend to rule the world. However, we see rebellion in Melkor, who adds evil to the world and sets the stage for Sauron later on.</p>
+    <p>3. Quenta Silmarillion is the longest part of the book. It tells about the first age, the elves coming into the world, and their history. We see the creation of the SIlmarils by Feanor, the wars and tragedies over the possession of it, and how Morgorth came to steal them.</p>
+    <p>4. Akallabeth is about the men. It accounts for the downfall of Numenor and shows the beginning of Sauron and his influence of evil onto the world, as well as the rise of Isildur.</p>
+    <p>5. Of the Rings of Power and the Third Age is a bridge to The Hobbit and the Lord of the Rings, telling about the creation of the Rings of Power, and Sauron eventually betraying everyone with his one ring. It goes all the way up to the destruction of the one Ring.</p>
+    
+    <p><strong>Analysis of the 5:</strong></p>
+    <p>The 5 parts are a historical recount of the world, from the beginning to the "present day" as you may see with the hobbits and the fall of Sauron. For those who read only the Lord of the Rings, or watched the movies, The Silmarillion offers a deeper appreciation of Tolkien's world-building. It's a treasure trove of lore and history that enriches the reader's understanding of Middle-earth. The book introduces readers to new characters, places, and events which are briefly referenced in Tolkien's other works. It allows readers to see the grand scope of Tolkien's imagination and the intricate details that make his world so compelling. The reader can get engaged with characters in one point of the book, and then face the tragedies only a few pages later. The book is not just an intriguing and informative read, but a deeply emotional one as well.</p>
+    
+    <p><strong>Themes:</strong></p>
+    <p>Beyond its contribution to the lore, The Silmarillion conveys themes of heroism, sacrifice, and the struggle between good and evil. These themes resonate with young readers who can draw parallels between the epic battles and personal struggles of Tolkien's characters and their own lives. The book also offers many different mediums of how it is written,  some poetry, and mythic language, which gives a different reading experience. There are songs and poems weaved in. There is the tragic love story of "Of Beren and Lúthien," which shows the themes of sacrifice and love, a ending that will leave anyone in tears. The book as a whole is a unique collection of stories that will deeply immerse readers and engage them with Tolkien's world.</p>
+    <p>In addition to this, the themes of power, greed and corruption are explored, namely through the dark lord of the time, Melkor. His unchecked jealousy, ambition and lust for dominion corrupted his once great spirit and lead him to bring destruction and terror to early middle earth. The tale of Fëanor and the creation of the Silmarils epitomizes this struggle, as Fëanor's overwhelming pride and attachment to his creations lead to a series of tragic events, fueled by his desire for power and control. These themes serve as a cautionary tale, reminding readers of the dangers of succumbing to the allure of power.</p>
+    
+    <p><strong>Conclusion:</strong></p>
+    <p>There has been a resurgence of interest in Tolkien's works and Middle Earth. Most of this can be credited to Amazon's show, The Lord of the Rings: The Rings of Power, season 2 which is airing later this month. This show has sparked renewed curiosity about the lore and history that underpin the show. The Silmarillion, with its detailed account of the creation of the Rings of Power and the early history of Middle-earth, is the perfect complement to the series, allowing you to learn the history and backdrop of Middle Earth.</p>
+    <p>Moreover, the 50th anniversary of the book's posthumous publication is coming up in 2027, providing an excellent opportunity to revisit this classic and reflect on its significance. This anniversary gives us a chance to celebrate Tolkien's legacy and introduce a new generation of readers to his mythological masterpiece, one which will never fall.</p>
+    <p>The Silmarillion is like the bible of Middle Earth. It starts from the beginning of time, and catches readers up to the present events of the Lord of the Rings. Upon reading it, you will leave with a deeper understanding, appreciation, and connection of Middle-Earth and the world of Tolkien.</p>
+      `,
     },
     {
       title: "The Fellowship of the Ring",
       image: fellowship,
       description:
-        "The journey begins: Follow Frodo Baggins and his companions as they set out from the Shire, facing ancient evils and forging unbreakable bonds. The fate of Middle-earth hangs in the balance as the shadow of Mordor looms.",
-      fullSummary:
-        "... [Your full 2+ pages of content for The Fellowship of the Ring] ...",
+        "The journey begins: Follow Frodo Baggins and his companions as they set out from the Shire. ",
+      fullSummary: `
+        <p>The Fellowship of the Ring starts in the Shire, the peaceful hometown of the hobbits. What initially stands out, and continues to do so throughout the entire series, is Tolkien's masterful world-building. With Middle Earth being completely different from our world, Tolkien didn't just set the stage with basic characters, tribes, and regions; he took it a step further: he created an entire elvish language present in parts of the book, and developed a rich history and backstory for every tribe, region, place, and aspect of Middle Earth.</p>
+      
+        <p>From the beginning, with the prologue about hobbits, readers get a sense of how much effort Tolkien put into creating a believable and immersive world. The history of Middle-earth feels ancient and real, making the story more impactful. For instance, the detail in Hobbit customs grounds the fantastical elements in something familiar and relatable, allowing us to connect with the various races as Tolkien introduces dwarves, elves, goblins, orcs, and other creatures encountered on the journey through Middle Earth.</p>
+      
+        <p>As we follow Frodo, we learn about the One Ring and its powerful temptation. One quote exemplifies this:</p>
+      
+        <blockquote>"The Ring was trying to get back to its master. It had slipped from Isildur's hand and betrayed him; then when a chance came it caught poor Déagol, and he was murdered; and after that Gollum, and it had devoured him."</blockquote>
+      
+        <p>This quote illustrates the controlling nature and temptation of the Ring, with it acting as a symbol of unsatiated desire. With little to no resistance to one's desires, it eroded and "devoured" Gollum, a theme that continues throughout the series. This is also evident in the Nazgûl.</p>
+      
+        <p>The Nazgûl epitomize the loss of self to desire. Their relentless pursuit of Frodo and the Ring highlights the overpowering nature of their temptation and their transformation into husks of their former selves. They are living embodiments of the perils of succumbing to temptation. This theme is especially potent when Frodo feels the Ring's pull and the Black Riders' creeping presence. His resistance, though fraught with struggle, contrasts sharply with the Nazgûl's complete surrender to it.</p>
+      
+        <p>Additionally, Boromir's struggle with the temptation of the Ring serves as a powerful reminder of the corrupting influence it wields, even over the noblest of hearts. His eventual fall and tragic death underscore the dangerous nature of unchecked ambition and desire, reinforcing the central theme of the Ring's insidious power. His willingness to hurt his friends to obtain the Ring exemplifies the dangers that obsession, greed for power, and corruption can have on anyone.</p>
+      
+        <p>This theme of corruption, coupled with the immersive world-building, sets the stage for the ongoing battle between good and evil that unfolds throughout the series.</p>
+      `,
     },
     {
       title: "The Two Towers",
       image: twoTowers,
       description:
         "Trials and tribulations: The fellowship is broken, but hope endures. Witness the epic battles, unlikely alliances, and personal struggles that will shape the future of Middle-earth. The war for the One Ring enters its darkest hour.",
-      fullSummary: "... [Your full 2+ pages of content for The Two Towers] ...",
+      fullSummary: "Review",
     },
     {
       title: "The Return of the King",
       image: returnKing,
       description:
         "The final stand: All paths converge in the ultimate battle for Middle-earth. Kingdoms rise and fall, heroes are forged in fire, and the fate of all free peoples hangs by a thread. The age of the Ring comes to its earth-shattering conclusion.",
-      fullSummary:
-        "... [Your full 2+ pages of content for The Return of the King] ...",
+      fullSummary: "Review",
     },
   ];
 
@@ -166,24 +209,26 @@ const Books = () => {
       </div>
 
       {modalOpen && selectedBook && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-4 z-50">
-          <div className="bg-[#f2e6d9] rounded-lg shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto relative">
-            <div className="sticky top-0 bg-[#f2e6d9] p-4 border-b border-lotr-bronze">
-              <h3 className="font-ringbearer text-3xl text-lotr-gold">
+        <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center p-4 z-50">
+          <div className="bg-gradient-to-b from-parchment to-lotr-bronze rounded-lg shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-hidden relative">
+            <div className="sticky top-0 bg-mirkwood p-4 border-b-2 border-lotr-gold">
+              <h3 className="font-ringbearer text-3xl text-lotr-gold text-center">
                 {selectedBook.title}
               </h3>
               <button
                 onClick={closeModal}
-                className="absolute top-4 right-4 text-mirkwood hover:text-lotr-bronze"
+                className="absolute top-4 right-4 text-lotr-gold hover:text-parchment transition-colors duration-300"
               >
                 <X size={24} />
               </button>
             </div>
-            <div className="p-6">
-              <p className="font-roboto text-mirkwood whitespace-pre-line">
-                {selectedBook.fullSummary}
-              </p>
+            <div className="p-8 overflow-y-auto max-h-[calc(90vh-5rem)] modal-scrollbar">
+              <div
+                className="font-minion text-mirkwood prose prose-lg max-w-none modal-content"
+                dangerouslySetInnerHTML={{ __html: selectedBook.fullSummary }}
+              />
             </div>
+            <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-lotr-bronze to-transparent pointer-events-none"></div>
           </div>
         </div>
       )}
@@ -198,7 +243,7 @@ const Title = () => {
         The Journey Through Middle-earth
       </h1>
       <h2 className="font-ringbearer text-3xl text-mirkwood mb-8">
-        The Duality of Power, Corruption, and Greed in Tolkien's Middle-earth
+        Power, Corruption, and Greed in Tolkien's Middle-earth
       </h2>
       <Image
         src={map}

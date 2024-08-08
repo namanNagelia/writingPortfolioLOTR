@@ -14,6 +14,11 @@ const ringbearer = localFont({
   variable: "--font-ringbearer",
 });
 
+const minion = localFont({
+  src: "../public/fonts/MinionPro-Regular.ttf",
+  variable: "--font-minion",
+});
+
 export const metadata: Metadata = {
   title: "Lord of the Rings Writing Portfolio",
   description: "A collection of Lord of the Rings inspired writings",

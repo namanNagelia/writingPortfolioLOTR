@@ -19,6 +19,7 @@ const config: Config = {
       fontFamily: {
         roboto: ["var(--font-roboto)", "sans-serif"],
         ringbearer: ["var(--font-ringbearer)", "serif"],
+        minion: ["var(--font-minion)", "serif"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

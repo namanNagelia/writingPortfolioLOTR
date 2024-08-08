@@ -1,0 +1,46 @@
+.modal-content p {
+  text-indent: 1.5em;
+}
+
+.modal-content h1,
+.modal-content h2,
+.modal-content h3,
+.modal-content h4,
+.modal-content h5,
+.modal-content h6 {
+  color: #c9b037; /* lotr-gold */
+  font-family: "Ringbearer", sans-serif;
+}
+
+.modal-content p {
+  color: #2c3e50; /* mirkwood */
+  line-height: 1.7;
+}
+
+.modal-content a {
+  color: #1e3a8a; /* forest-green */
+}
+
+.modal-content a:hover {
+  color: #c9b037; /* lotr-gold */
+}
+
+.modal-content blockquote {
+  border-left: 4px solid #c9b037; /* lotr-gold */
+  padding-left: 1em;
+  font-style: italic;
+  color: rgba(44, 62, 80, 0.8); /* mirkwood with opacity */
+}
+
+.modal-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-scrollbar::-webkit-scrollbar-track {
+  background: #f2e6d9; /* parchment */
+}
+
+.modal-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #c9b037; /* lotr-gold */
+  border-radius: 4px;
+}
