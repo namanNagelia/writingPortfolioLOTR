@@ -8,6 +8,7 @@ import silmarillion from "@/../public/books/silmarillion.jpg";
 import fellowship from "@/../public/books/fellowship.jpg";
 import twoTowers from "@/../public/books/twoTower.jpg";
 import returnKing from "@/../public/books/rotk.jpg";
+import DarkLordManuscript from "./manuscript";
 import "./page.css";
 
 const HomePage = () => {
@@ -54,9 +55,10 @@ const HomePage = () => {
           <p className="font-roboto text-lg">
             Dare to see the story through the eyes of Sauron himself. Explore an
             alternative perspective that challenges everything you thought you
-            knew about the history of Middle-earth.
+            knew about our Dark Lord.
           </p>
         </section>
+        <DarkLordManuscript />
       </main>
 
       {/* Footer */}
