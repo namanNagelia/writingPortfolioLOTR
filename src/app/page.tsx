@@ -108,7 +108,7 @@ const Books = () => {
       title: "The Fellowship of the Ring",
       image: fellowship,
       description:
-        "The journey begins: Follow Frodo Baggins and his companions as they set out from the Shire. ",
+        "The journey begins: Follow Frodo Baggins and his companions as they set out from the Shire. Press Read More for my analysis of our heroes and villains. ",
       fullSummary: `
         <p>The Fellowship of the Ring starts in the Shire, the peaceful hometown of the hobbits. What initially stands out, and continues to do so throughout the entire series, is Tolkien's masterful world-building. With Middle Earth being completely different from our world, Tolkien didn't just set the stage with basic characters, tribes, and regions; he took it a step further: he created an entire elvish language present in parts of the book, and developed a rich history and backstory for every tribe, region, place, and aspect of Middle Earth.</p>
       
@@ -131,15 +131,53 @@ const Books = () => {
       title: "The Two Towers",
       image: twoTowers,
       description:
-        "Trials and tribulations: The fellowship is broken, but hope endures. Witness the epic battles, unlikely alliances, and personal struggles that will shape the future of Middle-earth. The war for the One Ring enters its darkest hour.",
-      fullSummary: "Review",
+        "Trials and tribulations: The fellowship is broken, but hope endures. Witness the epic battles, unlikely alliances, and personal struggles that will shape the future of Middle-earth. Press Read More for my analysis.",
+      fullSummary: `
+
+  <p>The Two Towers is one of the more complex books of the trilogy. With the sudden introduction of new factions like Rohan, new characters, creatures like Ents, and more insight into the world of Middle Earth, it further shows the intricacies of the world that Tolkien made, and started building up to the climax.</p>
+
+  <p>One of the central themes explored is rebirth and renewal, exemplified by Gandalf's resurrection. His return as Gandalf the White symbolizes a mythic rebirth, with increased power and determination to defeat Saruman and Sauron.</p>
+
+  <blockquote>"I am white now.” "Indeed I am Saruman, one might almost say, Saruman as he should have been,” </blockquote>
+
+  <p> I interpreted this transformation as him trying to show that he is more powerful now, and he is on the same level as Saruman regarding power. This event felt like a mythic rebirth. He comes back stronger, wiser, and more determined to defeat Saruman and Sauron and save Middle Earth. However, one point of confusion still exists for me: how did he get reborn? Middle Earth and its lore and complexities are so deep that it is sometimes hard to understand the higher powers that govern the world and how it works. This unknown is something that makes Lord of the Rings unique and special.</p>
+
+  <p>The second aspect of the book that caught my attention was the bipolar personality of Gollum. Gollum's dual personality, torn between his original self, Sméagol, and the corrupted, power-hungry Gollum, illustrates the struggle between good and evil within a single being. We frequently see Gollum’s dialogue depicting a contrast between these two personalities, where he is either lusting for the precious or trying to help Frodo. What surprised me the most was the sympathy Frodo showed to Gollum despite Sam’s resistance. This sympathy stems from both of their interactions with the ring. Frodo sees Gollum as a reflection of himself, and what could happen if the ring keep’s corrupting him. Frodo tried to empathize with Gollum, a moving line saying </p>
+
+  <blockquote>"You were not so very different from a Hobbit once, were you... Smeagol."</blockquote>
+
+  <p> This line moved me: Frodo tried to relate with Gollum, and saw Gollum as one of his own despite the degraded shape and corruption the ring has done to him. This moment underscores the themes of mercy and redemption, highlighting Frodo’s hope that Gollum can still be saved. It also illustrates the psychological impact the Ring has on its bearers not named Sauron.</p>
+
+  <p> The most exciting part was the battle between men and Uru khai. The defense of Helm's Deep stands out as a thrilling and pivotal moment. The bravery and determination of the Rohirrim, led by Aragorn and his companions against the overwhelming forces of Saruman's Uruk-hai, are awe-inspiring. This battle showcases the themes of courage, unity, and the fight against overwhelming odds. This shows the power of the fellowship and an important allyship that formed, which will likely be revisited and pivotal to the final battle in the last book.</p>
+
+
+  <p>Revisiting "The Two Towers" has been a rewarding experience, revealing new layers and insights that I missed in my initial reading. The complexities and depth of Tolkien's world continue to amaze and captivate me but also confuse me at the same time.</p>
+
+
+      `,
     },
     {
       title: "The Return of the King",
       image: returnKing,
       description:
-        "The final stand: All paths converge in the ultimate battle for Middle-earth. Kingdoms rise and fall, heroes are forged in fire, and the fate of all free peoples hangs by a thread. The age of the Ring comes to its earth-shattering conclusion.",
-      fullSummary: "Review",
+        "The final stand: All paths converge in the ultimate battle for Middle-earth. Kingdoms rise and fall, heroes are forged in fire, and the fate of all free peoples hangs by a thread. The age of the Ring comes to its earth-shattering (literally) conclusion. Press Read more for this analysis.",
+      fullSummary: `
+      <p>In my rereading of Return of the King, I saw this book as the most intense one of the series. With this book being the climax of the journeys, having the battle of Gondor, and eventually the conclusion of the trilogy, I was very invested in it throughout reading, and came across multiple themes. 
+      </p>
+      <p>One key theme I examined in my first post was the burden and temptation of the ring. This came back to haunt Frodo in this book. The closer Frodo gets to Mount Doom, the tighter and the greater temptation that the ring exerts on him. Frodo’s journey illustrates the effects of power and corruption, both of which are symbolized by the ring. The line
+      </p>
+      <blockquote>"I am glad you are here with me. Here at the end of all things, Sam” (The Return of the King, Book VI, Chapter 3)”</blockquote>
+      <p> is particularly moving because it underscores the deep bond between Frodo and Sam. Despite the overwhelming pressure and the temptation of the Ring, Frodo finds solace in friendship, which is a recurring theme throughout the series. Tolkien had a clear goal, to underscore the importance of your relationship and bonds, and not to put this over power.
+      </p>
+      <p>The final moments at Mount Doom were tension-building, suspenseful, and intense. Frodo failed in his mission. After resisting the power for so long, he succumbed, and similar to how Isildur did, he decided not to destroy the ring. Only after Gollum takes the ring, and stumbles, show a sort of divine intervention. This shows that no one can ever resist the ring. Even Hobbets, who Gandalf said were great ring bearers, were not immune to this, and Frodo couldn’t bring himself to destroy the ring. Only freak luck was able to complete and resolve the quest.
+      </p>
+      <p>The battle of Gondor was one of the peak and compelling moments in the story. These battle scenes at Gondor are rich with deeper themes. They showcase the struggle between light and darkness, morally and physically. Characters are pushed to their limits, revealing their true natures. Courage, sacrifice, leadership, and hope are recurring themes. Gandalf’s coolness under immense pressure, Theoden’s sacrifice, and Eowyn’s bravery all highlight different facets of heroism. With this book being written during and after the two World Wars, I can relate aspects of this to what happened in these wars. Jrr Tolkien may have written this to serve as a part of an allegory and relate to the sacrifices, journey, and heroism of the many soldiers that fought during both World Wars.
+      </p>
+      <p>Finally, the very end of the book, with Frodo leaving Middle Earth, shows a powerful theme of sacrifice. Frodo had to leave and could never live a normal life again. The ring corrupted him so much, that he couldn’t live normally anymore, and he suffered its immense torture, for the good of the people. The ending was very sad as our hero was gone, but it shows the selflessness of Frodo.
+      </p>
+      <p>In conclusion, "The Return of the King" is indeed the most intense and compelling installment of the trilogy. It brings the various threads of the story to a dramatic and satisfying climax while exploring profound themes such as the corrupting nature of power, the importance of friendship and loyalty, the reality of sacrifice, and the enduring struggle between good and evil. 
+      </p>
+      `,
     },
   ];
 
