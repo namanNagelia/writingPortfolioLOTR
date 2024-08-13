@@ -220,13 +220,20 @@ const Books = () => {
                   index % 2 === 0 ? "pr-8 text-right" : "pl-8 text-left"
                 }`}
               >
-                <Image
-                  src={book.image}
-                  alt={book.title}
-                  width={200}
-                  height={300}
-                  className="rounded-lg shadow-lg inline-block transition-transform duration-300 hover:scale-105"
-                />
+                <div className="relative">
+                  <div className="relative">
+                    <Image
+                      src={book.image}
+                      alt={book.title}
+                      width={200}
+                      height={300}
+                      className="rounded-lg shadow-lg inline-block transition-transform duration-300 hover:scale-105"
+                    />
+                    <span className="absolute bottom-0 right-0 bg-black bg-opacity-50 text-white text-xs p-1">
+                      Credit: [Christopher Moisan and Johan Egerkrans]
+                    </span>
+                  </div>
+                </div>
               </div>
               <div className="w-8 h-8 absolute left-1/2 transform -translate-x-1/2 rounded-full bg-lotr-gold border-4 border-parchment z-10"></div>
               <div className={`w-1/2 ${index % 2 === 0 ? "pl-8" : "pr-8"}`}>
@@ -285,13 +292,18 @@ const Title = () => {
       <h2 className="font-ringbearer text-3xl text-mirkwood mb-8">
         Power, Corruption, and Greed in Tolkien's Middle-earth
       </h2>
-      <Image
-        src={map}
-        alt="Map of Middle-earth"
-        width={800}
-        height={600}
-        className="rounded-lg shadow-lg mx-auto"
-      />
+      <div className="relative">
+        <Image
+          src={map}
+          alt="Map of Middle-earth"
+          width={800}
+          height={600}
+          className="rounded-lg shadow-lg mx-auto"
+        />
+        <span className="absolute bottom-0 right-0 bg-black bg-opacity-50 text-white text-xs p-1">
+          Credit: [Deviant Art/Caeora]
+        </span>
+      </div>
     </section>
   );
 };
